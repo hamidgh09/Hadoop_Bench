@@ -1,0 +1,5 @@
+fs: "hdfs://localhost:9000"
+runs: 10  # how many repeats per combo
+op: ["create"]
+threads: [1, 2, 4, 8, 16, 32, 64, 128]
+files: [10000]
